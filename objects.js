@@ -6,7 +6,7 @@ function updatePlaylist(playlst, artistName, songTitle)
   return playlst
 }
 
-function removeFromPlaylst(playlst, artistName, songTitle)
+function removeFromPlaylist(playlst, artistName, songTitle)
 {
   delete playlst[artistName]
   return playlst
